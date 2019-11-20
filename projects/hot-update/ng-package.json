@@ -1,0 +1,15 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/hot-update",
+  "lib": {
+    "entryFile": "src/lib/hot-update.module.ts"
+  },
+  "whitelistedNonPeerDependencies": [
+		"@ionic/storage",
+    "@ionic-native/core",
+    "@ionic-native/file",
+		"@ionic-native/file-transfer",
+    "@ionic-native/zip",
+    "@ionic/storage"
+	]
+}

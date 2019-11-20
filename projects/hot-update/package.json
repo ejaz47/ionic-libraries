@@ -1,0 +1,17 @@
+{
+  "name": "hot-update",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/core": "*",
+    "rxjs": "*",
+    "rxjs/operators": "*"
+  },
+  "dependencies": {
+    "@ionic-native/core": "^5.17.0",
+    "@ionic-native/file": "^5.17.0",
+    "@ionic-native/file-transfer": "^5.17.0",
+    "@ionic-native/zip": "^5.17.0",
+    "@ionic/storage": "^2.2.0"
+  }
+}
