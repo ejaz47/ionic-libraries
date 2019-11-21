@@ -1,17 +1,38 @@
 {
-  "name": "hot-update",
+  "name": "hot-code-update",
   "version": "0.0.1",
+  "description": "Ionic Plugin for hot code push to your cordova apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejaz47/ionic-libraries.git"
+  },
+  "keywords": [
+    "ionic",
+    "angular",
+    "localforage",
+    "cordova",
+    "hybrid",
+    "hot code",
+    "update",
+    "push update",
+    "alternative"
+  ],
+  "private": false,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejaz47/ionic-libraries/issues"
+  },
+  "homepage": "https://github.com/ejaz47/ionic-libraries/tree/master/projects/hot-update",
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*",
-    "rxjs": "*",
-    "rxjs/operators": "*"
+    "rxjs": "*"
   },
   "dependencies": {
-    "@ionic-native/core": "^5.17.0",
-    "@ionic-native/file": "^5.17.0",
-    "@ionic-native/file-transfer": "^5.17.0",
-    "@ionic-native/zip": "^5.17.0",
-    "@ionic/storage": "^2.2.0"
+    "@ionic-native/core": "*",
+    "@ionic-native/file": "*",
+    "@ionic-native/file-transfer": "*",
+    "@ionic-native/zip": "*",
+    "@ionic/storage": "*"
   }
 }
